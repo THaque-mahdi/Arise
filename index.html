@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">ARISE</a>
+            <div class="navbar">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#review" class="nav-link">Reviews</a>
+            </div>
+            <div class="nav-icons">
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+                <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </header>
+    <section class="home container" id="home">
+        <div class="home-text">
+            <h1>
+                Enjoy a new blend <br>
+                of Coffee beans
+            </h1>
+            <p>
+                Sip, savor, and indulge in moments brewed with warmth at our cozy cafe, where each sip carries the
+                essence of community and comfort, inviting you to unwind and relish in the simple pleasures of life.
+            </p>
+            <a href="#" class="btn">
+                <span>SHOP NOW</span>
+            </a>
+        </div>
+        <img src="img/coffee farm.svg" class="home-img">
+    </section>
+    <section class="services container" id="services">
+        <div class="heading">
+            <h2>
+                Blending culture, coffee & top <br>
+                notch services
+            </h2>
+        </div>
+        <div class="services-content">
+            <div class="ser-box">
+                <img src="img/ser-1.png" alt="">
+                <p>Equipment</p>
+            </div>
+
+            <div class="ser-box">
+                <img src="img/ser-2.png" alt="">
+                <p>Type of Coffee</p>
+            </div>
+
+            <div class="ser-box">
+                <img src="img/ser-3.png" alt="">
+                <p>Take a way</p>
+            </div>
+
+            <div class="ser-box">
+                <img src="img/ser-4.png" alt="">
+                <p>Beans Varient</p>
+            </div>
+
+            <div class="ser-box">
+                <img src="img/ser-5.png" alt="">
+                <p>pastry</p>
+            </div>
+        </div>
+    </section>
+    <section class="products container" id="products">
+        <div class="heading">
+            <h2>
+                Our Top Selling Products
+            </h2>
+            <p>It take a lot of heart and hard work at every step to create the best coffee possible, and we know it
+                takes a lot of grit to keep your own grind going.</p>
+        </div>
+        <div class="product-content">
+            <div class="product-box">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="img/instant.jpg" alt="">
+                <p>4 Types Avaialble</p>
+                <h2>Instant Coffee</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="img/black.jpg" alt="">
+                <p>4 Types Avaialble</p>
+                <h2>Black Coffee</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="img/latte.jpg" alt="">
+                <p>4 Types Avaialble</p>
+                <h2>Latte</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="img/cappuccino.png" alt="">
+                <p>4 Types Avaialble</p>
+                <h2>Cappuccino</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="img/expresso.jpg" alt="">
+                <p>4 Types Avaialble</p>
+                <h2>Expresso</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="img/Mocha.png" alt="">
+                <p>4 Types Avaialble</p>
+                <h2>Mocha</h2>
+                <div class="product-info">
+                    <span>$14</span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team container" id="team">
+        <div class="heading">
+            <h2>Meet Our Experts</h2>
+        </div>
+        <div class="team-content">
+            <div class="team-box">
+                <img src="img/team 1.jpg" alt="">
+                <h2>Jafar Karim</h2>
+                <h3>Lead chef</h3>
+                <p>As a roster we search the world over to establish relationships with great farmers cultivationg great
+                    coffees.</p>
+            </div>
+            <div class="team-box">
+                <img src="img/team 2.png" alt="">
+                <h2>Sara Zones</h2>
+                <h3>Co- Lead chef</h3>
+                <p>As a roster we search the world over to establish relationships with great farmers cultivationg great
+                    coffees.</p>
+            </div>
+            <div class="team-box">
+                <img src="img/team 3.jpg" alt="">
+                <h2>Maria Hopkins</h2>
+                <h3>Co- Lead chef</h3>
+                <p>As a roster we search the world over to establish relationships with great farmers cultivationg great
+                    coffees.</p>
+            </div>
+        </div>
+    </section>
+    <section class="review container" id="review">
+        <div class="heading">
+            <h2>Customer's Reviews</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/review 1.jpg" alt="">
+                        <h2>Solen Grey</h2>
+                        <span>The taste of coffee is stunning,<br>subtle and smooth flavor.</span>
+                        <p>The taste of coffee can vary depending on the type of bean, roast level, and brewing method
+                            used. Some people prefer a strong and bold taste, while others prefer a more subtle and
+                            smooth flavor.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/review 2.jpg" alt="">
+                        <h2>Jonas Blue</h2>
+                        <span>The taste of coffee is stunning,<br>subtle and smooth flavor.</span>
+                        <p>The taste of coffee can vary depending on the type of bean, roast level, and brewing method
+                            used. Some people prefer a strong and bold taste, while others prefer a more subtle and
+                            smooth flavor.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/review 3.webp" alt="">
+                        <h2>Megan Arthur</h2>
+                        <span>The taste of coffee is stunning,<br>subtle and smooth flavor.</span>
+                        <p>The taste of coffee can vary depending on the type of bean, roast level, and brewing method
+                            used. Some people prefer a strong and bold taste, while others prefer a more subtle and
+                            smooth flavor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="book container" id="book">
+        <img src="img/coffee beans.jpg" alt="" class="book-img">
+        <div class="book-overlay">
+            <h2>Let's book a table<br>
+                for you
+            </h2>
+            <form action="https://formspree.io/f/xleqzeyq" method="post" class="book-data">
+                <div class="input-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" name="Number" placeholder="your Number" id="" required>
+                </div>
+                <div class="input-box">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="number" name="Number" placeholder="People" id="" required>
+                </div>
+                <button type="submit" class="book-btn">Book Table</button>
+            </form>
+            <p>We will contact you to confirm your booking.</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="#home" class="footer_logo">
+                    <h2>ARISE</h2>
+                </a>
+                <div class="footer-social">
+                    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+
+                    <a href="http://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer_2">
+                <h4>About</h4>
+                <p>Our Story</p>
+                <p>FAQ</p>
+                <p>Careers</p>
+            </div>
+            <div class="footer_3">
+                <h4>Customer's Recourses</h4>
+                <p>Menu</p>
+                <p>Location</p>
+                <p>Support</p>
+            </div>
+            <div class="footer_4">
+                <h4>Services</h4>
+                <p>Payment Option</p>
+                <p>Refund & Exchanges</p>
+                <p>Limitation of Libality</p>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <p>&copy; Elevate your senses at Arise Café, crafted with passion by <a href="#">_crack_404</a></p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
